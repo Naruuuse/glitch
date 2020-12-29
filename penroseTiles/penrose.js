@@ -8,9 +8,8 @@ function setup() {
   ds.simulate(5);
 }
 
-//ウィンドウサイズが変更されたときに実行される関数
+// Function to be executed when the window size is changed
 function windowResized() {
-  // print("ウィンドウサイズの変更");
   resizeCanvas(windowWidth, windowHeight);
 }
 
